@@ -1,0 +1,10 @@
+{
+  "Atelectasis": 0.51,
+  "Cardiomegaly": 0.73,
+  "Consolidation": 0.59,
+  "Effusion": 0.59,
+  "Fibrosis": 0.65,
+  "Infiltration": 0.51,
+  "Nodule": 0.67,
+  "Pneumothorax": 0.61
+}

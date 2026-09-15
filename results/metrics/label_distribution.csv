@@ -1,0 +1,16 @@
+finding,positive_count,percentage
+No Finding,2754,55.09
+Infiltration,830,16.6
+Effusion,487,9.74
+Atelectasis,460,9.2
+Nodule,214,4.28
+Consolidation,205,4.1
+Pneumothorax,199,3.98
+Cardiomegaly,196,3.92
+Fibrosis,172,3.44
+Pleural_Thickening,165,3.3
+Mass,161,3.22
+Emphysema,125,2.5
+Edema,90,1.8
+Pneumonia,65,1.3
+Hernia,27,0.54

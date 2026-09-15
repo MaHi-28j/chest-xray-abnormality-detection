@@ -1,0 +1,25 @@
+{
+  "dataset_name": "NIH ChestX-ray14",
+  "dataset_location": "C:\\Users\\mahii\\.gemini\\antigravity-ide\\scratch\\chest-xray-abnormality-detection\\data\\chestxray14",
+  "metadata_rows": 112120,
+  "available_local_images": 4999,
+  "corrupted_images_detected": 0,
+  "all_14_labels_present": [
+    "Atelectasis",
+    "Cardiomegaly",
+    "Consolidation",
+    "Edema",
+    "Effusion",
+    "Emphysema",
+    "Fibrosis",
+    "Hernia",
+    "Infiltration",
+    "Mass",
+    "Nodule",
+    "Pleural_Thickening",
+    "Pneumonia",
+    "Pneumothorax"
+  ],
+  "creation_date": "2026-09-14T19:43:54Z",
+  "status": "READY"
+}

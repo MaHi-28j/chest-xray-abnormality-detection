@@ -1,0 +1,3 @@
+experiment,macro_f1,micro_f1,macro_roc_auc,training_time_seconds
+Experiment A (Frozen Backbone),0.2253,0.278,0.6229,197.81
+Experiment B (Fine-Tuned Top Layers),0.3235,0.359,0.697,237.44

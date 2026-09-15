@@ -1,0 +1,81 @@
+# ==============================================================================
+# Git Ignore Configuration for Chest X-Ray Abnormality Detection Project
+# ==============================================================================
+
+# Python Bytecode & Optimization Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Testing & Linting Caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Large Datasets & Raw Radiology Archives (Do NOT commit to GitHub)
+data/chestxray14/images/
+data/chestxray14/Data_Entry_2017.csv
+data/chestxray14/*.zip
+data/chestxray14/*.tar.gz
+data/chestxray14/*.tar
+data/chestxray14/*.part
+data/processed/labels.csv
+data/*.zip
+data/*.tar.gz
+data/*.tar
+
+# Model Checkpoints & Large Binary Weights
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.bin
+models/*.onnx
+
+# IDE and Editor Specific Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# OS-Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Secrets, Tokens & Environment Variables
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.secrets
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+*.part
