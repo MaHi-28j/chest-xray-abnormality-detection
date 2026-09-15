@@ -16,8 +16,8 @@ Chest X-ray (224×224×3) → ResNet-18 → GAP(512) → Linear(512→8) → Sig
 ## Dataset
 
 - **Source:** [NIH ChestX-ray14](https://nihcc.app.box.com/v/ChestXray-NIHCC) (Wang et al., CVPR 2017), 112,120 frontal X-rays, 30,805 patients.
-- **This run:** first 4,999 images; top 8 abnormalities with ≥100 positives selected — **Infiltration, Effusion, Atelectasis, Nodule, Consolidation, Pneumothorax, Cardiomegaly, Fibrosis**.
-- **Splits:** strictly by Patient ID (no leakage) — 1,003 train / 233 val / 264 test images.
+- **This run:** first 4,999 images; top 8 abnormalities with ≥100 positives selected - **Infiltration, Effusion, Atelectasis, Nodule, Consolidation, Pneumothorax, Cardiomegaly, Fibrosis**.
+- **Splits:** strictly by Patient ID (no leakage) - 1,003 train / 233 val / 264 test images.
 
 ## Model & Training
 
@@ -75,7 +75,7 @@ python -m streamlit run app/app.py   # launch dashboard
 
 ## Limitations
 
-- Labels are NLP-mined from radiology reports (~90% accuracy) — noisy weak supervision.
+- Labels are NLP-mined from radiology reports (~90% accuracy) - noisy weak supervision.
 - Grad-CAM shows where the model attended, not ground-truth pathology boundaries; coarse 7×7 resolution.
 - Trained on a 4,999-image subset, not the full 112k-image dataset.
 
